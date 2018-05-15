@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+  .beta-tester {
+    background-image: url("../img/space_x.png	");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+    padding-bottom: 0px;
+		margin: 0px;
+		width: 100vw;
+  }
+  .beta-tester__header {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+  }
+
+  .logo-vindi {
+    width: 255px;
+    height: 65px;
+    margin: 90px auto 63px;
+    display: block;
+  }
+
+  .title-page {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 10px;
+  }
+
+  .subtitle-page {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    display: block;
+    color: #fff;
+  }
+  .color-featured {
+    color: #0080FF;
+    text-shadow: 0px 0px 6px #0080FF;
+  }
+
+  .buttons-beta {
+    width: 100%;
+    height: 65px;
+    margin: 90px auto 63px;
+    display: flex;
+    justify-content: center;
+	}
+
+	/* @media screen and (max-width: 600px) {
+		.beta-tester {
+			display: block;
+		}
+		.buttons-beta {
+			display: flex;
+			flex-direction:column;
+			height: 100%;
+			align-items: center;
+		}
+		.search-vindiano {
+			width: 400px;
+			height: 410px;
+		}
+		/* .beta-tester-what {
+			display: flex;
+			justify-content: flex-end;
+		} */
+
+
+  .btn {
+    width: 285px;
+    height: 70px;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: initial;
+    margin: 20px;
+  }
+  .btn--what {
+    border: 1px solid #19CBF1;
+    color: #19CBF1;
+    background: transparent;
+   }
+   .btn--what:hover {
+    border: 1px solid #0080FF;
+    color:  #0080FF;
+    background: transparent;
+   }
+  .btn--join {
+    color:white;
+    border: 1px solid #00ACBF;
+    background: #19CBF1;
+  }
+  .btn--join:hover {
+    background: #0460bd;
+  }
+
+
+  .search-vindiano {
+    width: 495px;
+    height: 555px;
+}
+
+  .beta-tester__body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .beta-tester-what {
+    display: flex;
+		justify-content: space-between;
+		/* margin: 20px 0px 20px 0px; */
+  }
+
+  .beta-tester-what__text {
+    padding: 40px;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    max-width: 40%;
+  }
+
+  .title-section {
+    color:#19CBF1;
+    font-size: 30px;
+    text-shadow: 0px 0px 6px #0080FF;
+  }
+
+  .beta-tester-what__img {
+    position: relative;
+    float: right;
+    right: 0;
+  }
+
+  .beta-tester-as {
+    padding: 40px;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+  }
+
+  .beta-tester-as__steps {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .as-step {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    margin: 10px;
+  }
+  .as-step img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .beta-tester-benefits {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .beta-tester-what__img{
+    position: relative;
+    float: right;
+    right: 0;
+  }
+
+  .beta-tester-benefits__text {
+    padding: 40px;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    max-width: 40%;
+  }
+
+  .beta-tester-end {
+    padding: 40px;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+
+  .u-center-align {
+    margin: 0 auto;
+    display: block
+  }
+
+  .u-text-center {
+    text-align: center;
+  }
+
+  .u-bold {
+    font-weight: bold;
+  }
+
+  .u-italic {
+    font-style: italic;
+  }
